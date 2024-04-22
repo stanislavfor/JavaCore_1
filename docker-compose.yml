@@ -1,0 +1,9 @@
+version: '1.0'
+
+services:
+  family-app:
+    image: family-file
+    container_name: family-file.app
+    build:
+      context: .
+      dockerfile: Dockerfile-family
